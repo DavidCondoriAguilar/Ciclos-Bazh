@@ -9,9 +9,9 @@ export default function MainFooter() {
           <img src={Logo} title="Logo Bazh" className="h-[102px] w-[280px]" />
           </div>
           <div className=" w-[200px]">
-            <p className="text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]">+ 51 948027441</p>
-            <p className="text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]"> holasoybazh@gmail.com</p>
-            <p className="text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]"> Lima-Perú</p>
+            <p className="textFooter">+ 51 948027441</p>
+            <p className="textFooter"> holasoybazh@gmail.com</p>
+            <p className="textFooter"> Lima-Perú</p>
           </div>
         </div>
         <div className="text-center ">

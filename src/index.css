@@ -2,8 +2,28 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
-/* 
-:root {
-    --color1: #b83c67;
-  } */
+@layer base {
+  /*Etiquetas puras*/
+  h2 {
+    @apply font-almarai font-semibold text-[20px] xl:text-[88px]
+  }
+}
+@layer components {
+  /*Clases*/
+  .textH2 {
+    @apply  font-almarai text-[20px] xl:text-[60px]
+    text-black 
+  }
+  .textFooter{
+    @apply text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]
+  }
+}
+@layer utilities {
+  /*Clases 
+  No textos, no de imágenes, no etiquetas
+  */
+  .container{
+    @apply w-full mx-[4%]
+    xl:max-w-[1200px] xl:mx-auto
+  }
+}
