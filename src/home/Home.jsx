@@ -1,4 +1,4 @@
-import { CardImg } from "../components/CardImg";
+import { CardImg } from "../components/card/CardImg";
 
 export default function Home() {
   return (
