@@ -6,7 +6,9 @@ export default {
       fontFamily: {
         almarai: ["Almarai", "sans"],
         inter: ["Inter", "sans-serif"],
-        nunito:["'Nunito Sans', sans-serif;"]
+        nunito:["'Nunito Sans',' sans-serif'"],
+        poppins:["Poppins", "sans-serif"],
+        mulish:["Mulish", "sans-serif"]
       },
     },
   },

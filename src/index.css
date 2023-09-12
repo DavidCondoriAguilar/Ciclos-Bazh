@@ -11,8 +11,11 @@
 @layer components {
   /*Clases*/
   .textH2 {
-    @apply  font-almarai text-[20px] xl:text-[60px]
+    @apply  font-almarai text-[20px] xl:text-[60px] 
     text-black 
+  }
+  .textH3 {
+    @apply font-almarai sm-text-[16px] font-extrabold xl-text-[88px] text-black tracking-[4%]
   }
   .textFooter{
     @apply text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]
