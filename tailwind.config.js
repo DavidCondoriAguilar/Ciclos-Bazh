@@ -10,6 +10,9 @@ export default {
         poppins:["Poppins", "sans-serif"],
         mulish:["Mulish", "sans-serif"]
       },
+      colors: {
+        'rosaB':'#FF0062'
+      }
     },
   },
   plugins: [],

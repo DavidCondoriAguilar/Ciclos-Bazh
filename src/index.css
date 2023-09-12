@@ -4,8 +4,13 @@
 
 @layer base {
   /*Etiquetas puras*/
-  h2 {
-    @apply font-almarai font-semibold text-[20px] xl:text-[88px]
+  h1 {
+    @apply font-poppins font-extrabold
+    text-[28px] sm:text-[36px]
+  }
+  h2{
+    @apply font-nunito font-extrabold 
+    text-[20px] sm:text-[24px]
   }
 }
 @layer components {
@@ -20,17 +25,14 @@
   .textFooter{
     @apply text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]
   }
-  .first-section-h3 {
-    @apply font-poppins font-extrabold
-           text-[28px] sm:text-[25px] xl:text-[36px]
-  }
+  
 }
 @layer utilities {
   /*Clases 
   No textos, no de imágenes, no etiquetas
   */
   .container{
-    @apply w-full mx-[4%]
-    xl:max-w-[1200px] xl:mx-auto
+    @apply w-full px-[4%] mx-auto
+    xl:max-w-[1112px] xl:px-0 bg-red-500
   }
 }

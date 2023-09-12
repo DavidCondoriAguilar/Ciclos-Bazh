@@ -1,12 +1,12 @@
 import MainFooter from "./common/MainFooter";
 import MainNav from "./common/MainNav";
-import MainLayout from "./home/MainLayout";
+import Home from "./home/Home";
 
 function App() {
   return (
     <>
       <MainNav/>
-      <MainLayout/>
+      <Home/>
       <MainFooter/>
     </>
   );
