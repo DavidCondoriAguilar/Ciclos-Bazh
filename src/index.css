@@ -20,6 +20,9 @@
   .textFooter{
     @apply text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]
   }
+  .first-section-h3 {
+    @apply font-poppins font-extrabold xl:text-[36px] sm:text-[25px] sm:text-[27px]
+  }
 }
 @layer utilities {
   /*Clases 
