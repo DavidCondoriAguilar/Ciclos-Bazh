@@ -12,6 +12,11 @@
     @apply font-nunito font-extrabold 
     text-[20px] sm:text-[24px]
   }
+  h3 {
+    @apply font-poppins font-bold text-[#362B2C] 
+    text-[25px]
+    sm:text-[32px] 
+  }
 }
 @layer components {
   /*Clases*/
@@ -25,7 +30,6 @@
   .textFooter{
     @apply text-[#fff] font-nunito text-right text-[16px] font-bold leading-[24px]
   }
-  
 }
 @layer utilities {
   /*Clases 
@@ -33,6 +37,15 @@
   */
   .container{
     @apply w-full px-[4%] mx-auto
-    xl:max-w-[1112px] xl:px-0 bg-red-500
+    xl:max-w-[1112px] xl:px-0
+  }
+
+  .containerCard {
+    @apply w-full px-[4%] mx-auto
+    xl:max-w-[1202px] xl:px-0
+  }
+  .containerWork {
+    @apply w-full px-[2%] mx-auto
+    xl:max-w-[100%] 
   }
 }

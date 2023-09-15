@@ -12,9 +12,9 @@ export default function MainNav() {
             <img src={Logo} title="Logo Bazh" />
 
             <div className="flex gap-[24px]">
-               <img src={Facebook} alt="" />
-               <img src={Linkedin} alt="" />
-               <img src={Instagram} alt="" />
+               <img src={Facebook} title="Facebook" />
+               <img src={Linkedin} title="Likedin" />
+               <img src={Instagram} title="Instagram" />
             </div>
          </nav>
       </header>
