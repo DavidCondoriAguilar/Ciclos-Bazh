@@ -46,6 +46,6 @@
   }
   .containerWork {
     @apply w-full px-[2%] mx-auto
-    xl:max-w-[100%] 
+    xl:max-w-[100%]
   }
 }

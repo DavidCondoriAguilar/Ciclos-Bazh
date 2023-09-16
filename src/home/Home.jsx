@@ -65,23 +65,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="containerWork bg-[#2b2326ff]">
-          <h2 className="text-[35px] font-700 text-center text-[#fff] pt-[45px]">Nuestros proyectos más recientes</h2>
-        <div className="containerWork mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ] py-[72px]">
+      <section className="containerWork  bg-[#2b2326ff]">
+        <div className="text-center text-[#fff] pt-[72px] pb-[45px]">
+          <h2 className="text-[40px] font-jost">Nuestros proyectos más recientes</h2>
+          <p className="font-nunito font-300 text-[24px] ">pasamos desde telefonía hasta banca y restaurantes.</p>
+        </div>
+
+        <div className="containerWork   grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ] ">
           <CardWork
-            img="images/work1.jpg"
+            img="images/proyecto1.png"
             subTittle="Nombres Profesionales"
             text="Naming Design"
           />
           <CardWork
-            img="images/work2.jpg"
+            img="images/proyecto2.png"
             subTittle="Congreso de biología ICBAR"
-            text="ICBAR | LINWSW"
+            text="ICBAR / UNMSM"
           />
           <CardWork
-            img="images/work3.jpg"
+            img="images/proyecto3.png"
             subTittle="Potenciando jugadores"
-            text="WILD BOOSTING"
+            text="WORLDBOOSTING"
           />
         </div>
       </section>

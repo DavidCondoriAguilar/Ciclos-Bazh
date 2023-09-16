@@ -8,10 +8,11 @@ export default {
         inter: ["Inter", "sans-serif"],
         nunito:["'Nunito Sans',' sans-serif'"],
         poppins:["Poppins", "sans-serif"],
-        mulish:["Mulish", "sans-serif"]
+        mulish:["Mulish", "sans-serif"],
+        jost:[ "Jost", "sans-serif"]
       },
       colors: {
-        'rosaB':'#FF0062'
+        'rosaB':'#FF0062',
       }
     },
   },
